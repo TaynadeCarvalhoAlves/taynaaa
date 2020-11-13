@@ -1,0 +1,36 @@
+body {
+    padding-top: 100px;
+    background-color:#f5f5f5;
+    }
+    .fundo
+    {
+    background-image: url('../Imagem/back4.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    bottom: 0;
+    left: 0;
+    overflow: auto;
+    padding: 3em;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    }
+body.center-form {
+    min-height: 100vh!important;
+  }
+
+  div.center-form {
+    position: relative!important;
+    min-height: 100vh!important;
+  }
+
+  div.center-form > form {
+    position: absolute!important;
+    top: 50%!important;
+    left: 50%!important;
+    transform: translateY(-50%) translateX(-50%)!important;
+  }
+
+      
+    
